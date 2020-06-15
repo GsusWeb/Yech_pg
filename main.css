@@ -1,0 +1,340 @@
+body{
+margin-left: 50px;
+margin-right: 50px;
+margin-top: 0;
+margin-bottom: 50px;
+padding: 0;
+}
+
+.basicbackground{
+width:auto;
+align-content: center;
+}
+
+.header_Pack{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  border-width:  thin;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-style: solid;
+  border-color: #D8D8D8;
+
+  height: 20px;
+  padding: 1rem;
+  padding-bottom: 32px;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+
+#nav .nav_list{
+  margin: 0;
+  padding: 0;
+  padding-top: 40px;
+  padding-left: 15%;
+  word-spacing: 16px;
+  width: 740px;
+
+}
+
+#nav .nav_list span{
+  text-align: center;
+}
+
+
+#nav .nav_list a{
+  text-decoration: none;
+  color: #696969;
+  font-size: 20px;
+  font-weight: bold;
+  float:left;
+  width: 12%;
+
+
+}
+
+#nav .nav_list a:hover  {
+  color: #333333;
+
+
+}
+
+
+
+.title_description{
+display: inline;
+color:gray;
+
+}
+
+#title_description{
+  margin: 25px 0 0 0;
+  padding: 0;
+  padding-left: 2px;
+  font-size: 0.01rem;
+
+}
+
+
+.title{
+  margin:0;
+  padding: 0;
+
+
+}
+
+.title a{
+  text-decoration: none;
+  color: #333333;
+  float: left;
+  width: 130px;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 25%;
+}
+
+.slogan{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 1.7rem;
+  line-height: 1rem;
+  color: #2E2E2E;
+}
+
+.slogan a{
+  text-decoration: none;
+  color: #2E2E2E;
+}
+
+
+
+hr {
+position: relative;
+border: none;
+height: 0.6px;
+background: #2E2E2E;
+border-color: #2E2E2E;
+margin: 0;
+
+}
+
+#worship_title_ONE {
+text-align: center;
+}
+
+#worship_title_ONE a {
+  font-weight: bold;
+  color: #0e4d88;
+  text-decoration: none;
+  font-size: 1.7em;
+}
+
+/*<시작> 인터넷에서 따온 코드 <시작>*/
+.outer {
+
+  width: 650px;
+  margin: auto;
+  display: block;
+  /* set the font color here as a background color, in this case black
+  background-color: black; */
+
+}
+
+.bg {
+  text-align: center;
+  width: 0%;
+  transition: all 0.4s ease-out;
+  background: #3ebac6 background: -moz-linear-gradient(left, #3ebac6 0%, #8b539e 50%, #e53782 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #3ebac6), color-stop(50%, #8b539e), color-stop(100%, #e53782));
+  background: -webkit-linear-gradient(left, #3ebac6 0%, #8b539e 50%, #e53782 100%);
+  background: -o-linear-gradient(left, #3ebac6 0%, #8b539e 50%, #e53782 100%);
+  background: -ms-linear-gradient(left, #3ebac6 0%, #8b539e 50%, #e53782 100%);
+  background: linear-gradient(to right, #3ebac6 0%, #8b539e 50%, #e53782 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#3ebac6', endColorstr='#e53782', GradientType=1);
+}
+
+.inner {
+  display: inline-block;
+  background-color: white;
+  mix-blend-mode: screen;
+  padding: 15px;
+  width: 640px;
+}
+
+h1 {
+  color: black;
+  font-size: 36px;
+  letter-spacing: 5px;
+}
+
+.outer:hover .bg {
+  width: 100%;
+}
+
+
+/*<끝> 인터넷에서 따온 코드 <끝> */
+
+
+.worship_title_TWO{
+text-align: center;
+margin-bottom: 30px;
+margin-top: 20px;
+font-weight: bold;
+color: #2E2E2E;
+}
+
+#worship_time {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.worship_program a{
+text-decoration: none;
+color: #201F1F;
+
+}
+
+.first_worship{
+border-style: solid;
+display: inline-block;
+background-color: #0e4d88;
+border-color: #0e4d88;
+border-radius: 14px;
+border-width: 10px;
+margin:8px;
+}
+
+.second_worship{
+border-style: solid;
+display: inline-block;
+background-color: #0e4d88;
+border-color: #0e4d88;
+border-radius: 14px;
+border-width: 10px;
+margin:8px;
+}
+
+.third_worship{
+border-style: solid;
+display: inline-block;
+background-color: #0e4d88;
+border-color: #0e4d88;
+border-radius: 14px;
+border-width: 10px;
+margin:8px;
+}
+
+.time {
+  font-size: 8px;
+  color: white;
+  display: inline;
+  vertical-align: bottom;
+}
+
+.worship_name{
+  font-size: 12px;
+  color: white;
+}
+
+.youtube_intro{
+  text-align: center;
+  line-height: 20px;
+  font-size: 1.7rem;
+  color: #2E2E2E;
+  width:100%;
+}
+
+.youtube_description{
+
+}
+
+
+.Youtube_AlphaOmega{
+  font-weight: bold;
+  border-style:  solid;
+  border-radius: 5px;
+  border-color: green;
+  display: inline;
+  border-width: 3px;
+  padding: 2px;
+}
+
+.You{
+color : #1D1D1D;
+display: inline;
+font-weight: 900;
+font-size: 1.7rem;
+
+}
+
+.tube{
+  border-style: solid;
+  border-radius: 5px;
+  border-color: red;
+  border-width: 3px;
+  display: inline;
+  padding: 1px;
+  color : white;
+  background-color: red;
+  font-weight: bold;
+
+}
+
+
+
+.logos{
+font-family: inherit;
+text-align: center;
+font-size: 1rem;
+color: #2E2E2E;
+line-height: 16px;
+}
+
+.logos_chapter{
+  margin: 0;
+  margin-top: 16px;
+  padding: 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: #2E2E2E;
+}
+
+.book_intro {
+text-align: center;
+font-size: 22px;
+}
+
+.book_intro a {
+color: #3c899c;
+text-decoration: none;
+}
+
+.youtube_description a{
+  color: #2E2E2E;
+  text-decoration: none;
+}
+
+.support_mission {
+text-align: center;
+font-size: 22px;
+}
+
+.support_mission a{
+text-decoration: none;
+color: #2E2E2E;
+}
